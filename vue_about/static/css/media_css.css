@@ -1,0 +1,144 @@
+@media screen and (max-width:886px) {
+  .base-info>ul>li:nth-child(6) {
+    font-size: 0.14rem;
+  }
+}
+
+@media screen and (max-width:825px) {
+
+  .base-info>ul>li:nth-child(6) {
+    font-size: 0.13rem;
+  }
+
+  #app .job-info>ul:nth-child(4)>li:nth-child(2) {
+    font-size: 0.14rem;
+  }
+}
+
+@media screen and (max-width:749px) {
+  body #app {
+    display: block;
+  }
+
+  #app .left-side {
+    width: 0;
+    display: none;
+    background-color: rgba(221, 221, 221, 1);
+    border: #1296DB solid 1px;
+  }
+
+  #app .right-side {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #app .side-btn {
+    display: block;
+    position: fixed;
+    right: 0.2rem;
+    top: 0.2rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 0.1rem;
+    background-color: rgba(255, 96, 0, 0.6);
+    z-index: 999;
+    /* background-image: url(../../src/static/img/展开.png); */
+  }
+}
+
+@media screen and (max-width:535px) {
+  #app .base-info>ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #app .base-info>ul>li {
+    width: 50%;
+  }
+
+  .base-info>ul>li:nth-child(6) {
+    font-size: 0.14rem;
+  }
+
+  #app .edu-info>ul {
+    display: flex;
+  }
+
+  #app .edu-info>ul>li:nth-child(1) {
+    width: 5%;
+  }
+
+  #app .edu-info>ul>li:nth-child(2) {
+    width: 35%;
+  }
+
+  #app .edu-info>ul>li:nth-child(4) {
+    width: 10%;
+  }
+
+  #app .edu-info>ul>li:nth-child(4) {
+    width: 50%;
+  }
+
+  #app .edu-info>.certificate>ul>li:nth-child(1) {
+    width: 10%;
+  }
+
+  #app .job-info>ul>li:nth-child(1) {
+    width: 10%;
+  }
+
+  #app .job-info>ul>li:nth-child(2) {
+    width: 60%;
+  }
+
+  #app .job-info>ul>li:nth-child(3) {
+    width: 30%;
+  }
+
+  #app .job-info>ul>li:nth-child(4) {
+    line-height: 0.2rem;
+    font-size: 0.14rem;
+    text-align: right;
+    width: 90%;
+  }
+
+  #app .project-info>ul>li:nth-child(1) {
+    width: 10%;
+  }
+
+  #app .project-info>ul>li:nth-child(2) {
+    width: 45%;
+  }
+
+  #app .project-info>ul>li:nth-child(3) {
+    width: 45%;
+    text-align: right;
+  }
+
+  #app .project-info>ul:nth-child(4)>li,
+  #app .project-info>ul:nth-child(5)>li {
+    font-size: 0.14rem;
+  }
+}
+
+/* @media screen and (max-width:414px){
+}  */
+
+@media screen and (max-width:375px) {
+  html {
+    font-size: 90.5797px;
+  }
+}
+
+@media screen and (max-width:360px) {
+  html {
+    font-size: 86.9565px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  html {
+    font-size: 77.30px;
+  }
+}
